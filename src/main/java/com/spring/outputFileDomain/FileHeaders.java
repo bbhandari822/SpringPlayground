@@ -1,8 +1,10 @@
-package com.spring.domain;
+package com.spring.outputFileDomain;
 
 /**
  * Created by Binod Bhandari on 6/19/18.
  */
+
+//implement CsvHeader
 public enum FileHeaders{
 
     ITEM_ONE,

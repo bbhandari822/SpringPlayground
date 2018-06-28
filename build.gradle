@@ -35,6 +35,8 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile('org.springframework.boot:spring-boot-starter-aop')
 
+    compile group: 'com.opencsv', name: 'opencsv', version: '3.3'
+
     // Exclude the tomcat-jdbc since it's used as default for connection pooling
     // This can also be achieved by setting the spring.datasource.type to HikariCP
     // datasource see application.properties below
